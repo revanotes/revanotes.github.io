@@ -1,0 +1,80 @@
+ body header h1 {
+     border-bottom: dashed #b5e853;
+     font-size: 36px;
+     line-height: 1.5;
+     margin: 0;
+     text-align: center;
+     font-weight: bold;
+     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+     color: #b5e853;
+     text-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(181 232 83 / 10%), 0 0 10px rgb(181 232 83 / 10%);
+     letter-spacing: -1px;
+     -webkit-font-smoothing: antialiased;
+     margin-left: 0px;
+ }
+ 
+ body {
+     background-image: url("bkg.png");
+     color: aliceblue;
+ }
+ 
+ body table {
+     border-style: solid;
+     border-color: rgb(193, 196, 196);
+     border-radius: 10px;
+     border-spacing: 5px;
+ }
+ 
+ body p {
+     font-size: 30px;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+ }
+ 
+ footer div {
+     font-size: 20px;
+     color: aliceblue;
+ }
+ 
+ body table thead {
+     color: #63c0f5;
+ }
+ 
+ body header {
+     color: #b5e853;
+     font-size: 36px;
+     text-align: center;
+     margin-left: 25px;
+ }
+ 
+ a {
+     color: #b5e853;
+     -webkit-transition: color 1s;
+     transition: color 1s;
+     text-align: center;
+ }
+ 
+ a:hover {
+     color: red;
+ }
+ 
+ b {
+     color: #b5e853;
+     -webkit-transition: color 1s;
+     transition: color 1s;
+ }
+ 
+ b:hover {
+     color: white;
+ }
+ 
+ footer a:hover {
+     color: aqua;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ footer b {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 30px;
+     margin-left: 440px;
+ }
