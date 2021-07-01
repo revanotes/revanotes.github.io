@@ -51,7 +51,8 @@ body {
 }
 
 .subject {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
+    color: rgb(139, 134, 134);
     font-size: 25px;
     line-height: 0px;
 }
