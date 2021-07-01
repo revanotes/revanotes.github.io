@@ -73,4 +73,10 @@
      font-family: 'Courier New', Courier, monospace;
  }
  
+ .content tr td {
+     white-space: nowrap;
+ }
  
+ .content {
+     table-layout: auto;
+ }
