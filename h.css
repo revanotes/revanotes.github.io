@@ -1,81 +1,62 @@
- body header h1 {
-     border-bottom: dashed #b5e853;
-     font-size: 36px;
-     line-height: 1.5;
-     margin: 0;
-     text-align: center;
-     font-weight: bold;
-     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-     color: #b5e853;
-     text-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(181 232 83 / 10%), 0 0 10px rgb(181 232 83 / 10%);
-     letter-spacing: -1px;
-     -webkit-font-smoothing: antialiased;
-     margin-left: 0px;
- }
- 
- body {
-     background-color: black;
-     color: aliceblue;
- }
- 
- body table {
-     border-style: solid;
-     border-color: rgb(193, 196, 196);
-     border-radius: 10px;
-     border-spacing: 5px;
-     width: auto;
- }
- 
- body p {
-     font-size: 25px;
-     font-family: 'Courier New', Courier, monospace;
-     text-align: center;
- }
- 
- footer div {
-     font-size: 20px;
-     color: aliceblue;
- }
- 
- body table thead {
-     color: #63c0f5;
- }
- 
- body header {
-     color: #b5e853;
-     font-size: 36px;
-     text-align: center;
-     margin-left: 25px;
- }
- 
- .a {
-     color: #b5e853;
-     -webkit-transition: color 1s;
-     transition: color 1s;
-     text-align: center;
- }
- 
- .a:hover {
-     color: red;
- }
- 
- .content tr td {
-     white-space: nowrap;
- }
- 
- .content {
-     width: auto;
-     
-     margin-left: auto;
-     margin-right: auto;
- }
- 
- .youtube {
-     color: #b5e853;
-     text-align: center;
-     font-size: 20px;
- }
- 
- .youtube:hover {
-     color: #63c0f5;
- }
+body {
+    background-image: url(download.jpg);
+    color: azure;
+}
+
+.ece {
+    text-align: center;
+    color: #b5e853;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    border-bottom: #42b5e2 dashed;
+    align-self: auto;
+}
+
+.fullbody {
+    text-align: center;
+}
+
+.tables1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.thead1 {
+    color: #63c0f5;
+}
+
+.tables2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.thead2 {
+    color: #63c0f5;
+}
+
+:any-link {
+    color: #b5e853;
+}
+
+:any-link:hover {
+    color: #63c0f5;
+}
+
+.subject {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    line-height: 0px;
+}
+
+.footeer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
