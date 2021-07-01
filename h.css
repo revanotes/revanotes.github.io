@@ -23,6 +23,7 @@
      border-color: rgb(193, 196, 196);
      border-radius: 10px;
      border-spacing: 5px;
+     width: auto;
  }
  
  body p {
@@ -47,30 +48,15 @@
      margin-left: 25px;
  }
  
- a {
+ .a {
      color: #b5e853;
      -webkit-transition: color 1s;
      transition: color 1s;
      text-align: center;
  }
  
- a:hover {
+ .a:hover {
      color: red;
- }
- 
- b {
-     color: #b5e853;
-     -webkit-transition: color 1s;
-     transition: color 1s;
- }
- 
- b:hover {
-     color: white;
- }
- 
- footer a:hover {
-     color: aqua;
-     font-family: 'Courier New', Courier, monospace;
  }
  
  .content tr td {
@@ -78,5 +64,18 @@
  }
  
  .content {
+     width: auto;
      table-layout: auto;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .youtube {
+     color: #b5e853;
+     text-align: center;
+     font-size: 20px;
+ }
+ 
+ .youtube:hover {
+     color: #63c0f5;
  }
