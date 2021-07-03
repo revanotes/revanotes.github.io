@@ -45,7 +45,7 @@
 
 .raise {
     text-align: center;
-    --color: #fc2b06;
+    --color: #06ecfc;
     --hover: #e5ff60;
     background-color: rgb(0, 0, 0);
     border: 2px solid;
@@ -178,7 +178,7 @@ button {
 }
 
 strong {
-    color: #fc2828;
+    color: #28b9fc;
 }
 
 .motivation {
