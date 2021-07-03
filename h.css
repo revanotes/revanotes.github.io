@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(42, 49, 59);
+    background-color: rgb(0, 0, 0);
     /* background-image: url(pi); */
 }
 
@@ -23,10 +23,6 @@
     color: antiquewhite;
 }
 
-body {
-    /* border: solid 3px orange; */
-}
-
 .container {
     display: grid;
     grid-template-columns: 1fr 1.4fr 0.9fr 1fr;
@@ -41,7 +37,7 @@ body {
 
 .header {
     grid-area: header;
-    border-bottom: #b5e853 2px dashed;
+    border-bottom: #b5e853 4px dashed;
     font-family: Roboto Mono, monospace;
     font-size: 32px;
     padding: 10px;
@@ -49,9 +45,9 @@ body {
 
 .raise {
     text-align: center;
-    --color: #63c0f5;
+    --color: #ff0d0d;
     --hover: #e5ff60;
-    background-color: rgb(42, 49, 59);
+    background-color: rgb(0, 0, 0);
     border: 2px solid;
     font: inherit;
     line-height: 0.5em;
@@ -84,139 +80,120 @@ button {
 #implink {
     text-align: left;
     margin-top: 20px;
-    color: #63c0f5;
+    color: #b5e853;
 }
 
 .sider {
     margin-top: 20px;
     grid-area: sider;
     color: #63c0f5;
-    border-right: #b5e853 dashed 2px;
+    border-right: #b5e853 dashed 4px;
     font-family: Roboto Mono, monospace;
     font-size: 32px;
     text-align: center;
 }
 
 .allnotes {
-    color: #b5e853;
+    color: #f5f5f5;
     margin-top: 20px;
     padding: 5px;
 }
 
 a:hover {
-    color: #63c0f5;
+    color: #ff1100;
     font-style: italic;
 }
 
 .content {
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: "one two three" "four five six" "seven eight nine" "ten eleven twelve";
     grid-area: content;
+    box-sizing: border-box;
 }
 
 .one {
-    grid-area: one;
     size: 100%;
     align-items: center;
     text-align: center;
     font-size: 25px;
     display: block;
-    width: 100%;
+    float: left;
 }
 
 .two {
-    grid-area: two;
     text-align: center;
     display: block;
-    width: 100%;
     font-size: 25px;
+    float: left;
 }
 
 .three {
-    grid-area: three;
     text-align: center;
     font-size: 25px;
     display: block;
-    width: 100%;
+    float: left;
 }
 
 .four {
-    grid-area: four;
     text-align: center;
     font-size: 25px;
     display: block;
-    width: 100%;
+    float: left;
 }
 
 .five {
-    grid-area: five;
     text-align: center;
     display: block;
-    width: 100%;
     font-size: 25px;
+    float: left;
 }
 
 .six {
-    grid-area: six;
     text-align: center;
     display: block;
-    width: 100%;
     font-size: 25px;
+    float: left;
 }
 
 .seven {
-    grid-area: seven;
     text-align: center;
     font-size: 25px;
     display: block;
-    width: 100%;
+    float: left;
 }
 
 .eight {
-    grid-area: eight;
     text-align: center;
     display: block;
-    width: 100%;
     font-size: 25px;
+    float: left;
 }
 
 .nine {
-    grid-area: nine;
     text-align: center;
     font-size: 25px;
     display: block;
-    width: 100%;
+    float: left;
 }
 
 .ten {
-    grid-area: ten;
     text-align: center;
     font-size: 25px;
     font-size: 25px;
-    display: block;
-    width: 100%;
+    float: left;
 }
 
 .eleven {
     display: block;
-    width: 100%;
-    grid-area: eleven;
     text-align: center;
     font-size: 25px;
-    cursor: pointer;
+    float: left;
 }
 
 .twelve {
-    grid-area: twelve;
     text-align: center;
     font-size: 25px;
     display: block;
-    width: 100%;
+    float: left;
 }
 
 .footer {
@@ -228,7 +205,7 @@ a:hover {
 }
 
 strong {
-    color: #63c0f5;
+    color: #ff0000;
 }
 
 .motivation {
