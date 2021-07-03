@@ -30,7 +30,7 @@
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "header header header header" "sider content content content" "sider content content content" "footer footer footer footer";
+    grid-template-areas: "header header header header" "content content content content" "content content content content" "footer footer footer footer";
     width: 97.7%;
     height: 90.5%;
 }
