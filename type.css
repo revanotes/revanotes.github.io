@@ -1,38 +1,213 @@
 * {
-    background-color: rgb(42, 49, 59);
+    background-color: rgb(0, 0, 0);
+    /* background-image: url(pi); */
 }
 
-.wrapper {
-    height: 100vh;
-    /*This part is important for centering*/
-    display: flex;
+
+/* #63c0f5 */
+
+
+/* #63c0f5 */
+
+
+/* #a0a0a0 */
+
+
+/* font-family: Roboto Mono, monospace; */
+
+
+/* font-family: 'Fredoka One', cursive; */
+
+* {
+    /* max-width: ; */
+    color: antiquewhite;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 0.9fr 1fr;
+    grid-template-rows: 0.3fr 1.3fr 1.8fr 0.6fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header header header header" "sider content content content" "sider content content content" "footer footer footer footer";
+    width: 97.7%;
+    height: 90.5%;
+}
+
+.header {
+    grid-area: header;
+    border-bottom: #b5e853 4px dashed;
+    font-family: Roboto Mono, monospace;
+    font-size: 32px;
+    padding: 10px;
+}
+
+.raise {
+    text-align: center;
+    --color: #ff0d0d;
+    --hover: #e5ff60;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid;
+    font: inherit;
+    line-height: 0.5em;
+    margin: 0.5em;
+    padding: 1em 2em;
+    transition: 0.25s;
+    line-height: 1;
+}
+
+button {
+    color: var(--color);
+    transition: 0.25s;
+    border-radius: 30px;
+}
+
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    color: var(--hover);
+    font-style: italic;
+}
+
+#iiyearece {
+    text-align: center;
+    color: #b5e853;
+    font-weight: bolder;
+}
+
+#implink {
+    text-align: left;
+    margin-top: 20px;
+    color: #b5e853;
+}
+
+.sider {
+    margin-top: 20px;
+    grid-area: sider;
+    color: #63c0f5;
+    border-right: #b5e853 dashed 4px;
+    font-family: Roboto Mono, monospace;
+    font-size: 32px;
+    text-align: center;
+}
+
+.allnotes {
+    color: #f5f5f5;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+a:hover {
+    color: #ff1100;
+    font-style: italic;
+}
+
+.content {
+    margin-top: 20px;
+    grid-area: content;
+    box-sizing: border-box;
+}
+
+.one {
+    size: 100%;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    float: left;
 }
 
-.typing-demo {
-    width:13ch;
-    animation: typing 2s steps(13), blink .6s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-    color: beige;
+.two {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    float: left;
 }
 
-a {
-    color: aqua;
+.three {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    float: left;
 }
 
-@keyframes typing {
-    from {
-        width: 0
-    }
+.four {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    float: left;
 }
 
-@keyframes blink {
-    50% {
-        border-color: transparent
-    }
+.five {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    float: left;
+}
+
+.six {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    float: left;
+}
+
+.seven {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    float: left;
+}
+
+.eight {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    float: left;
+}
+
+.nine {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    float: left;
+}
+
+.ten {
+    text-align: center;
+    font-size: 25px;
+    font-size: 25px;
+    float: left;
+}
+
+.eleven {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+}
+
+.twelve {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    float: left;
+}
+
+.footer {
+    grid-area: footer;
+    border-top: #b5e853 2px dashed;
+    font-family: Roboto Mono, monospace;
+    font-size: 32px;
+    text-align: center;
+}
+
+strong {
+    color: #ff0000;
+}
+
+.motivation {
+    font-size: 22px;
 }
