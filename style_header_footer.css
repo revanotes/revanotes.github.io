@@ -1,0 +1,190 @@
+    body {
+        height: 100%;
+        color: antiquewhite;
+        background-color: black;
+        font-size: 18px;
+        margin: 0px;
+    }
+    
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    .navbar {
+        background-color: #1f282d;
+        overflow: hidden;
+        position: relative;
+        display: block;
+        padding: 4px;
+    }
+    
+    .floatleft {
+        font-family: monospace;
+        font-size: 24px;
+        float: left;
+        margin: 5px;
+        padding: 9px;
+        border: 2px solid white;
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    
+    .navbar a:hover {
+        background-color: rgb(139, 243, 157);
+        color: #1f282d;
+    }
+    
+    .logo {
+        height: 45px;
+        width: 210 px;
+        float: left;
+        margin: 3px;
+        padding: 8px;
+        cursor: pointer;
+    }
+    
+    .notes_text {
+        float: left;
+        font-family: monospace;
+        font-size: 24px;
+        margin: 5px;
+        padding: 9px;
+        border: 2px solid white;
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin-left: 20px;
+        cursor: pointer;
+        background-color: #63c0f5;
+    }
+    
+    .navbarmobile {
+        background-color: #1f282d;
+        overflow: hidden;
+        position: relative;
+        display: block;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .floatmid {
+        font-family: monospace;
+        font-size: 16px;
+        margin: 5px;
+        padding: 9px;
+        border: 2px solid white;
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(230, 224, 224);
+        margin-left: 5px;
+        cursor: pointer;
+        float: left;
+    }
+    
+    .footer {
+        font-family: monospace;
+        background-color: #1f282d;
+        text-align: center;
+        font-size: 26px;
+        display: inline-block;
+        width: 100%;
+        bottom: 0px;
+    }
+    
+    .footer b {
+        color: rgb(139, 243, 157);
+    }
+    
+    .footer b:hover {
+        color: rgb(139, 214, 243);
+        cursor: pointer;
+    }
+    
+    @media screen and (max-width: 760px) {
+        .floatleft {
+            font-size: 18px;
+        }
+        .logo {
+            height: 30px;
+            width: 140px;
+        }
+        .notes_text {
+            font-size: 18px;
+        }
+        .footer {
+            font-size: 18px;
+        }
+    }
+    
+    @media screen and (max-width: 580px) {
+        .floatleft {
+            font-size: 16px;
+            display: none;
+        }
+        .navbarmobile {
+            display: block;
+        }
+        .notes_text {
+            font-size: 18px;
+            float: right;
+            width: 40%;
+        }
+        .floatmid {
+            width: 40%;
+            margin: 1px;
+            padding: 5px;
+        }
+        .footer {
+            font-size: 18px;
+        }
+    }
+    
+    @media screen and (max-width: 360px) {
+        .floatleft {
+            font-size: 14px;
+            display: none;
+        }
+        .notes_text {
+            font-size: 16px;
+            float: left;
+            width: 80%;
+            text-align: center;
+        }
+        .floatmid {
+            margin: 1px;
+            padding: 3px;
+        }
+        .footer {
+            font-size: 16px;
+        }
+        .navbarmobile {
+            display: block;
+        }
+    }
+    /* 
+    @media screen and (max-width: 435px) {
+        .floatleft {
+            font-size: 14px;
+            display: none;
+        }
+        .logo {
+            height: 30px;
+            width: 140px;
+        }
+        .notes_text {
+            font-size: 14px;
+        }
+        .footer {
+            font-size: 14px;
+        }
+        .navbarmobile {
+            display: block;
+        }
+    } */
